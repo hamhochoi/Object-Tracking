@@ -33,8 +33,8 @@
 	```
 - The results are LaneSegmentationNetwork/*.avi
 
-## Demo video
-![demovideo](./demo.gif)
+## Demo
+![demo](./demo.gif)
 
 
 ## Reference
