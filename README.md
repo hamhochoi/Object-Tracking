@@ -19,17 +19,22 @@
 ## How to run
 - Car tracking + counting + speed estimation: 
 ```
-cd yolov4-deepsort-master
-python object_tracker.py --video ./data/video/highway9.mp4 --output ./outputs/highway9.avi --model yolov4
-```
-	- The results will be stored in 'outputs' folder.
+		cd yolov4-deepsort-master
+		python object_tracker.py --video ./data/video/highway9.mp4 --output ./outputs/highway9.avi --model yolov4
+```	
+- The results will be stored in 'outputs' folder.
 	
 - Lane Segmentation: Apply lane segmentation into results of car tracking phase as follow
 	- Copy images from 'yolov4-deepsort-master/outputs/frame/\*' to 'LaneSegmentationNetwork/data/image/image'
 	- Run lane segmentation:
-```
-python prediction.py
-```
+	```
+			python prediction.py
+	```
+- The results are LaneSegmentationNetwork/*.avi
+
+## Demo video
+![demovideo](./demo.gif)
+
 
 ## Reference
 - https://github.com/theAIGuysCode/yolov4-deepsort
