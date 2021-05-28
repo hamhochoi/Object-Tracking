@@ -18,6 +18,10 @@
 	- create 'model' folder and put all pretrained files in there.
 	
 ## How to run
+- Environment:
+	+ Tensorflow 1.15.0
+	+ GPU RTX 2080 Ti 13GB
+	
 - Car tracking + counting + speed estimation: 
 ```
 	cd yolov4-deepsort-master
