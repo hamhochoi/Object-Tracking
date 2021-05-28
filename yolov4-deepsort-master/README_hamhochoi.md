@@ -20,3 +20,5 @@
     - Open Google Earth and find place with camera;
     - find 4 key points on frame and on map (points aren't on one straight line!);
     - Save coordinates in pixels and in degrees into vectors framePoints and geoPoints.
+
+- As this idea, we could track the real world coordination of the object using function map() in ../yolov4-deepsort-master/utils/map_location.py

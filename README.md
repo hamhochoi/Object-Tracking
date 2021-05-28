@@ -7,6 +7,7 @@
 	- Tracking: DeepSORT (includes Kalman Filter + Hungarian)
 - Car Counting
 - Speed Estimation (using real world coordination)
+- Tracking real world coordination of objects using map() in yolov4-deepsort-master/utils/map_location.py (4 hand coded coordinates must be provided first). ![see more](./LaneSegmentationNetwork/README_hamhochoi.md)
 - Lane Segmentation
 
 ## Pretrained files
