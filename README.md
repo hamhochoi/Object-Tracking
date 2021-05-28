@@ -20,8 +20,8 @@
 ## How to run
 - Car tracking + counting + speed estimation: 
 ```
-		cd yolov4-deepsort-master
-		python object_tracker.py --video ./data/video/highway9.mp4 --output ./outputs/highway9.avi --model yolov4
+	cd yolov4-deepsort-master
+	python object_tracker.py --video ./data/video/highway9.mp4 --output ./outputs/highway9.avi --model yolov4
 ```	
 - The results will be stored in 'outputs' folder.
 	
@@ -29,7 +29,7 @@
 	- Copy images from 'yolov4-deepsort-master/outputs/frame/\*' to 'LaneSegmentationNetwork/data/image/image'
 	- Run lane segmentation:
 	```
-			python prediction.py
+		python prediction.py
 	```
 - The results are LaneSegmentationNetwork/*.avi
 
